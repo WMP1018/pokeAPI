@@ -8,7 +8,10 @@
             </mat-card-header>    
             <mat-card-content (click)="openDialog()">
               <p>
-                Otras propiedades
+                Base experience: {{item.base_experience}} <br>
+                Height: {{item.height}} <br>
+                Weight: {{item.weight}} <br>
+                Type: {{item.types[0].type.name}}
               </p>
             </mat-card-content>
             <mat-card-actions>
